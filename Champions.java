@@ -3,14 +3,14 @@ public abstract class Champions{
     abstract void name();
     abstract void attack();
     abstract void move();
-    abstract void usedskills();
-//    abstract void Q();
-//    abstract void W();
-//    abstract void E();
-//    abstract void R();
+//    abstract void usedskills();
+    abstract void Q();
+    abstract void W();
+    abstract void E();
+    abstract void R();
     protected int attackrange;
     protected int movespeed;
-    protected String[] skills = new String[4];
+//    protected String[] skills = new String[4];
 
     public Champions(int attackrange,int movespeed){
         this.attackrange = attackrange;
